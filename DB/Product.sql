@@ -25,6 +25,7 @@ INSERT INTO product VALUES(prod_seq.nextval, 'flower', sysdate, 'flower_memo', '
 INSERT INTO product VALUES(prod_seq.nextval, 'pen', sysdate, 'pen_memo', './images/pen.jpg');
 INSERT INTO product VALUES(prod_seq.nextval, 'whitepaper', sysdate, 'whitepaper_memo', './images/whitepaper.jpg');
 
+commit
 
 /*PROCEDURE*/
 CREATE OR REPLACE PROCEDURE getAllProduct(res out SYS_REFCURSOR)
